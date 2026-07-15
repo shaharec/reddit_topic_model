@@ -1,0 +1,13 @@
+# Core framework — supplies the agent loop, planning, delegation,
+# memory, and checkpointing as configuration.
+crewai>=1.15
+crewai-tools>=1.15
+
+# Step 1 (raw core loop) talks to the Anthropic API directly.
+anthropic>=0.40
+
+# The demo codebase's test suite / the run_tests tool.
+pytest>=8
+
+# Optional: E2B sandboxing for steps 6 and 8.
+# pip install 'crewai-tools[e2b]'
